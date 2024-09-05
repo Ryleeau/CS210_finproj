@@ -1,0 +1,79 @@
+===========================================================================
+- CS210 FINAL PROJECT PROPOSAL, Fall 2023
+===========================================================================
+- PROJECT TITLE GOES HERE
+- Name: Rylee Au
+- Section: T6
+- Documentation Statement:  Discussed this with Major Sample
+===========================================================================
+
+OVERVIEW:
+This is where you will write a brief description of your project.  
+You do not need to write a lot, but you do need to provide enough detail for 
+your instructor to get a good understanding of what you would like to do.
+
+The wordle game. The user can choose the mode of difficulty (easy, medium, hard)
+which relate to the number of letters in the word (5,6,7). This chooses the word
+from one of the three separate txt files of listed words based on modes. The 
+user places an initial guess. Comparing the guess and the actual word, if the letter
+is in the right place it will print the letter in green to console. If the letter is 
+in the word but not in the right place it will print the letter in red to console. 
+If the letter is not in the word at all it will print in black to console.
+
+===========================================================================
+
+INTERFACE MECHANISM:
+How will users interact with your program?  Is it with Curses, command line, etc?
+
+Console I/O
+
+===========================================================================
+
+Required Programming Skills (must have 5 of 6):
+   -- Leave blank if you aren't planning on implementing.
+   1) Pointer use with dynamic memory (malloc and free)
+	How are you going to meet this req:
+      The guessed word and actual word will be dynamically allocated based 
+      on the difficulty (number of letters chosen for the wordle word)
+
+   2) Pointers as a key component of a data structure
+	How are you going to meet this req:
+
+   3) File I/O
+	How are you going to meet this req:
+      The txt files for the difficulties will contain a lists of words which
+      needs to be opened and closed to choose a random word.
+
+   4) Structs
+	How are you going to meet this req:
+      Structure for each game. The difficulty, guessed word, actual word, past guesses,
+      guessed letters.
+
+   5) String manipulation
+	How are you going to meet this req:
+      Add guessed letters to a string, added past guesses to 2D array, 
+      update the current guess
+
+   6) Processing of array data
+	How are you going to meet this req:
+      Iterate through the guessed word in comparison to the actual word and print the
+      resulting colors based on the status of the guessed letters in the actual word
+
+Required Advanced Programming Skills (1 of the below):
+   -- Leave blank if you aren't planning on implementing.
+   1) Recursion
+	How are you going to meet this req:
+
+   2) 2D Dynamic Memory
+	How are you going to meet this req:
+      read the txt file to a dynamically allocated 2D array and randomly choose
+      a word from the array
+
+   3) Linked List (or some other advanced data structure)
+	How are you going to meet this req:
+
+   4) A GUI (xwindows for Ubuntu)
+	How are you going to meet this req:
+
+   5) Some other advanced skill (approve with your instructor)
+	How are you going to meet this req:

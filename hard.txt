@@ -1,0 +1,10 @@
+bishop
+camera
+button
+doctor
+direct
+emerge
+carbon
+breath
+eagles
+vacant
